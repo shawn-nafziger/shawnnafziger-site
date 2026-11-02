@@ -1,10 +1,10 @@
 # shawnnafziger.com: notes for Claude
 
-Shawn Nafziger's personal portfolio site, aimed at hiring managers for analytics and visualization roles. **Decided Nov 2, 2026:** shawnnafziger.com is the personal portfolio; tallorderdigital.com stays the commercial site and keeps all data stories. This site links to the stories there and never copies them (no duplicate pages).
+Shawn Nafziger's personal portfolio site, aimed at hiring managers for analytics and visualization roles. **Decided Nov 2, 2026:** shawnnafziger.com is the personal portfolio; tallorderdigital.com stays the commercial site. (The first plan, that all stories stay on Tall Order and this site only links to them, was changed the same day; see below.)
 
 Who Shawn is and how we work: read `CLAUDE.md` in `shawn-nafziger/nba-analytics` or `shawn-nafziger/weather-intelligence`. In short: BI and data-viz analyst (Power BI, Tableau), not a developer; lead every PR and reply with what he needs to know and do.
 
-**Decided Nov 2, 2026 (later the same day):** Shawn doesn't want the portfolio to lean on links to Tall Order. Stories can live here outright, starting with the seaweed story (`stories/seaweed-beaches-sargassum/`, never published on Tall Order). Pages here link within this site; Tall Order appears only where the business itself is the point (the "For businesses" panel, the footer credit) and where a case study points to work that still lives there.
+**Decided Nov 2, 2026 (later the same day):** Shawn doesn't want the portfolio to lean on links to Tall Order. Stories can live here, starting with the seaweed story (`stories/seaweed-beaches-sargassum/`). It is also on Tall Order at `travel/seaweed-beaches-sargassum/` (merged Nov 2, 2026), and Shawn is fine with both. Each copy names itself as the original (canonical); the Tall Order copy keeps Tall Order's shell and is no longer updated by rebuilds, since the template now produces this site's version. Pages here link within this site; Tall Order appears only where the business itself is the point (the "For businesses" panel, the footer credit) and where a case study points to work that still lives there.
 
 ## Stories
 - Built in the data repos and copied here by PR, like Tall Order's stories: the seaweed story comes from `travel-analytics/analysis/seaweed_beaches/map_prototype/` (`build.py` writes `output/seaweed-map.html`, copied to `stories/seaweed-beaches-sargassum/index.html`). Edit the template there and rebuild; don't hand-edit the copy.
