@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>try{var t=localStorage.getItem("sn-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<title>Dashboards · Shawn Nafziger</title>
+<meta name="description" content="Interactive Power BI reports: NBA analytics and weather intelligence.">
+<link rel="canonical" href="https://shawnnafziger.com/dashboards/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dashboards · Shawn Nafziger">
+<meta property="og:description" content="Interactive Power BI reports: NBA analytics and weather intelligence.">
+<meta property="og:url" content="https://shawnnafziger.com/dashboards/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/site.css">
+<script src="../assets/theme.js" defer></script>
+<script src="../assets/pbi-embed.js" defer></script>
+</head>
+<body>
+<header class="site-bar wrap">
+  <a class="brand" href="../" aria-label="Shawn Nafziger, home"><span class="brand-name">Shawn Nafziger</span></a>
+  <nav class="site-nav" aria-label="Site"><a href="../work/">Work</a><a href="../dashboards/" aria-current="page">Dashboards</a><a href="../resume/">Résumé</a><button type="button" class="theme-toggle" aria-label="Switch theme"><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg></button></nav>
+</header>
+<main class="wrap">
+<section>
+  <p class="kicker">Dashboards</p>
+  <h1>Live Power BI reports</h1>
+  <p class="lede">Click, filter and drill in. On a phone, tap a report's picture to open it full screen.</p>
+</section>
+
+<section class="pbi">
+  <div class="section-head"><p class="kicker">NBA analytics</p><a href="../work/nba-analytics/">Case study →</a></div>
+  <h3>Which teams are really elite on offense?</h3>
+  <p>Possession-based ratings and the Four Factors for every team, refreshed with each day's games.</p>
+  <div class="pbi-frame" data-src="" data-img="" data-title="NBA analytics"></div>
+  <div class="pbi-meta"><span>Power BI · data through the most recent refresh</span><a class="pbi-open" href="#" target="_blank" rel="noopener" hidden>Open full screen ↗</a></div>
+</section>
+
+<section class="pbi">
+  <div class="section-head"><p class="kicker">Weather intelligence</p><a href="../work/weather-intelligence/">Case study →</a></div>
+  <h3>How unusual was yesterday?</h3>
+  <p>Each city's latest days ranked against every year on the same date, with records and normals.</p>
+  <div class="pbi-frame" data-src="" data-img="" data-title="Weather intelligence"></div>
+  <div class="pbi-meta"><span>Power BI · official NOAA station data</span><a class="pbi-open" href="#" target="_blank" rel="noopener" hidden>Open full screen ↗</a></div>
+</section>
+
+<section class="band">
+  <p class="kicker">Also</p>
+  <h2>Daily NBA web dashboards</h2>
+  <p style="margin-top:12px;max-width:36em">Four lightweight dashboards built for phones and fast loading, published every morning on Tall Order Digital.</p>
+  <div class="button-row"><a class="button" href="https://tallorderdigital.com/nba/dashboards/">Open the dashboards ↗</a></div>
+</section>
+</main>
+<footer class="site-foot wrap">
+  <p>NBA data from NBA.com stats via the open-source nba_api. Not affiliated with the NBA. No team or league logos.</p>
+  <p>Weather data from NOAA (GHCN-Daily, RCC-ACIS) and the National Weather Service; climate reanalysis from ERA5-Land (Copernicus) via Open-Meteo.</p>
+  <p>© 2026 Shawn Nafziger · <a href="mailto:shawn@tallod.com">shawn@tallod.com</a> · Founder of <a href="https://tallorderdigital.com/">Tall Order Digital</a></p>
+  <p>No cookies, no tracking.</p>
+</footer>
+</body>
+</html>
