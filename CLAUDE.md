@@ -4,6 +4,14 @@ Shawn Nafziger's personal portfolio site, aimed at hiring managers for analytics
 
 Who Shawn is and how we work: read `CLAUDE.md` in `shawn-nafziger/nba-analytics` or `shawn-nafziger/weather-intelligence`. In short: BI and data-viz analyst (Power BI, Tableau), not a developer; lead every PR and reply with what he needs to know and do.
 
+**Decided Nov 2, 2026 (later the same day):** Shawn doesn't want the portfolio to lean on links to Tall Order. Stories can live here outright, starting with the seaweed story (`stories/seaweed-beaches-sargassum/`, never published on Tall Order). Pages here link within this site; Tall Order appears only where the business itself is the point (the "For businesses" panel, the footer credit) and where a case study points to work that still lives there.
+
+## Stories
+- Built in the data repos and copied here by PR, like Tall Order's stories: the seaweed story comes from `travel-analytics/analysis/seaweed_beaches/map_prototype/` (`build.py` writes `output/seaweed-map.html`, copied to `stories/seaweed-beaches-sargassum/index.html`). Edit the template there and rebuild; don't hand-edit the copy.
+- Story pages carry this site's shell: the "Shawn Nafziger" wordmark, menu (Work, Dashboards, Résumé, theme button), `sn-theme`, `../../assets/theme.js`, `../../favicon.svg`, canonical address on shawnnafziger.com, and no analytics. Glossary pop-ups have no "More on this" link (Tall Order's Stats, explained page isn't linked from here).
+- Never run `tallorderdigital-site/tools/apply-header.py` on a template that publishes here.
+- Address: `stories/<slug>/`. Never break a published address; leave a redirect page if a story moves.
+
 ## Rules
 - **Changes arrive as pull requests.** Shawn reviews and merges; GitHub Pages publishes `main`.
 - **Static only:** self-contained HTML, no server, database or build step.

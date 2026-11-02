@@ -14,6 +14,7 @@ Shawn Nafziger's personal portfolio: case studies, résumé and embedded Power B
 | `index.html` | Home: intro, selected work, one live dashboard, how I work, link to Tall Order Digital, contact |
 | `work/` | Case studies: `nba-analytics/`, `weather-intelligence/` |
 | `dashboards/` | Embedded Power BI reports |
+| `stories/` | Data stories that live only on this site. One folder per story, one self-contained page with its data built in. First: `seaweed-beaches-sargassum/`, built in the private `travel-analytics` repo (`analysis/seaweed_beaches/map_prototype/`) and copied here by pull request. Don't hand-edit the copy |
 | `resume/` | Experience, skills, education |
 | `404.html` | Page not found (uses root-relative links, since it's served from any depth) |
 | `assets/site.css` | All styles and color tokens (light and dark) |
