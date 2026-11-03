@@ -1,6 +1,6 @@
 # shawnnafziger.com
 
-Shawn Nafziger's personal portfolio: a home page and one data story, "Where the seaweed lands". The business site, with the data stories, is [tallorderdigital.com](https://tallorderdigital.com) (repo `tallorderdigital-site`).
+Shawn Nafziger's personal portfolio: a home page and one data story, "Where the seaweed lands".
 
 ## How it works
 
@@ -11,7 +11,7 @@ Shawn Nafziger's personal portfolio: a home page and one data story, "Where the 
 
 | Path | What |
 | --- | --- |
-| `index.html` | Home: intro, the featured story, how I work, link to Tall Order Digital, contact |
+| `index.html` | Home: intro, the featured story, how I work. The contact section is hidden in an HTML comment for now |
 | `stories/` | Data stories, one folder each, one self-contained page with its data built in. Only `seaweed-beaches-sargassum/` for now: built in the private `travel-analytics` repo (`analysis/seaweed_beaches/map_prototype/`) and copied here by pull request. Don't hand-edit the copy |
 | `404.html` | Page not found (uses root-relative links, since it's served from any depth) |
 | `assets/site.css` | All styles and color tokens (light and dark) |
@@ -20,4 +20,4 @@ Shawn Nafziger's personal portfolio: a home page and one data story, "Where the 
 
 ## Before sharing
 
-Anything highlighted in yellow on the site (class `todo`) is a placeholder: for now, only the LinkedIn link on the home page. Fill it in and remove the `todo` class.
+Nothing visible is a placeholder now. The hidden contact section still has a placeholder LinkedIn link (class `todo`); fill it in before un-hiding it.
