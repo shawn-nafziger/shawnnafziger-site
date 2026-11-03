@@ -24,6 +24,7 @@ Who Shawn is and how we work: read `CLAUDE.md` in `shawn-nafziger/nba-analytics`
 - **Power BI dashboards, if Shawn adds them later:** Publish to web links only (`https://app.powerbi.com/view?r=...`), public data only, and a screenshot + link on phones. A tested embed helper was removed on Nov 3, 2026; it's in git history as `assets/pbi-embed.js` (commit 0b510f0).
 - **Credit data sources** on every story page. No logos.
 - **No analytics or cookies yet.** If added, use a cookie-free setup and update the footer line.
+- **Sitemap:** `sitemap.xml` (linked from `robots.txt`) lists every page, written by hand (two pages). Add a page's canonical address to it in the same PR as any new or moved page. Google Search Console verified Nov 3, 2026.
 - Test before every PR: serve locally, check desktop and phone widths, light and dark, no script errors, no broken internal links.
 
 ## Design
