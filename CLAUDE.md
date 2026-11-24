@@ -4,7 +4,9 @@ Shawn Nafziger's personal portfolio site, aimed at hiring managers for analytics
 
 **Scope, decided Nov 3, 2026:** the site is the home page plus **one story, the seaweed story**. No résumé page and no dashboards yet, and the NBA and weather case studies were removed. Don't add pages, dashboards or other projects unless Shawn asks.
 
-**No Tall Order Digital on this site (Shawn, Nov 3, 2026):** no business panel, no "Founder of" credit, no links to tallorderdigital.com and no tallod.com email on any page. This is a simple portfolio, not an advertisement for the business. The contact section on the home page is hidden in an HTML comment (it uses the tallod.com email) until Shawn chooses a contact method; the menu is just Story. **Decided Nov 2, 2026:** shawnnafziger.com is the personal portfolio; tallorderdigital.com stays the commercial site. (The first plan, that all stories stay on Tall Order and this site only links to them, was changed the same day; see below.)
+**Profile page (`profile/`, Nov 24, 2026):** Shawn asked for a general profile page (not tailored to any employer) with his work, approach and experience. Text comes from his own write-ups and his approved résumé; keep it general: no internal names, brand codes, documents or open issues from his employer, and SQL/BigQuery only as "working knowledge". **No current-employer name anywhere on the site (Shawn, Nov 24, 2026):** the current job shows as "Sr. Digital Analyst", described as "Global travel & hospitality company" (Shawn's choice), with no company or brand names and no industry-specific hints such as "vacation brands". Past employers (Amway North America, LEER Group) were removed from the profile too (Shawn, Nov 24, 2026): Experience lists only the current role and the Tall Order line. Tall Order Digital appears as one line only (Founder, 2026 – present) in the experience list, as on his résumé; no link. More stories (weather, NBA, travel flight delays) are planned, added one at a time like the seaweed story.
+
+**No Tall Order Digital on this site (Shawn, Nov 3, 2026):** no business panel, no "Founder of" credit, no links to tallorderdigital.com and no tallod.com email on any page. This is a simple portfolio, not an advertisement for the business. The contact section on the home page is hidden in an HTML comment (it uses the tallod.com email) until Shawn chooses a contact method; the menu is Story and Profile. **Decided Nov 2, 2026:** shawnnafziger.com is the personal portfolio; tallorderdigital.com stays the commercial site. (The first plan, that all stories stay on Tall Order and this site only links to them, was changed the same day; see below.)
 
 Who Shawn is and how we work: read `CLAUDE.md` in `shawn-nafziger/nba-analytics` or `shawn-nafziger/weather-intelligence`. In short: BI and data-viz analyst (Power BI, Tableau), not a developer; lead every PR and reply with what he needs to know and do.
 
@@ -12,7 +14,7 @@ Who Shawn is and how we work: read `CLAUDE.md` in `shawn-nafziger/nba-analytics`
 
 ## Stories
 - Built in the data repos and copied here by PR, like Tall Order's stories: the seaweed story comes from `travel-analytics/analysis/seaweed_beaches/map_prototype/` (`build.py` writes `output/seaweed-map.html`, copied to `stories/seaweed-beaches-sargassum/index.html`). Edit the template there and rebuild; don't hand-edit the copy.
-- Story pages carry this site's shell: the "Shawn Nafziger" wordmark, menu (Story, theme button), `sn-theme`, `../../assets/theme.js`, `../../favicon.svg`, canonical address on shawnnafziger.com, and no analytics. Glossary pop-ups have no "More on this" link (Tall Order's Stats, explained page isn't linked from here).
+- Story pages carry this site's shell: the "Shawn Nafziger" wordmark, menu (Story, Profile, theme button), `sn-theme`, `../../assets/theme.js`, `../../favicon.svg`, canonical address on shawnnafziger.com, and no analytics. Glossary pop-ups have no "More on this" link (Tall Order's Stats, explained page isn't linked from here).
 - Never run `tallorderdigital-site/tools/apply-header.py` on a template that publishes here.
 - Address: `stories/<slug>/`. Never break a published address; leave a redirect page if a story moves.
 
@@ -24,7 +26,7 @@ Who Shawn is and how we work: read `CLAUDE.md` in `shawn-nafziger/nba-analytics`
 - **Power BI dashboards, if Shawn adds them later:** Publish to web links only (`https://app.powerbi.com/view?r=...`), public data only, and a screenshot + link on phones. A tested embed helper was removed on Nov 3, 2026; it's in git history as `assets/pbi-embed.js` (commit 0b510f0).
 - **Credit data sources** on every story page. No logos.
 - **No analytics or cookies yet.** If added, use a cookie-free setup and update the footer line.
-- **Sitemap:** `sitemap.xml` (linked from `robots.txt`) lists every page, written by hand (two pages). Add a page's canonical address to it in the same PR as any new or moved page. Google Search Console verified Nov 3, 2026.
+- **Sitemap:** `sitemap.xml` (linked from `robots.txt`) lists every page, written by hand. Add a page's canonical address to it in the same PR as any new or moved page. Google Search Console verified Nov 3, 2026.
 - Test before every PR: serve locally, check desktop and phone widths, light and dark, no script errors, no broken internal links.
 
 ## Design
