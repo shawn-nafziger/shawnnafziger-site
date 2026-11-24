@@ -118,6 +118,7 @@ a.card:hover h3 { color: var(--amber); }
 .role .when { font: 400 13px/1.6 var(--font-data); color: var(--ink-3); }
 .role h3 { font-size: 21px; }
 .role .org { color: var(--ink-2); margin: 4px 0 8px; }
+.role h3 + p { margin-top: 6px; }
 .role p:not(.org) { color: var(--ink-2); max-width: 40em; }
 @media (max-width: 600px) { .role { grid-template-columns: 1fr; } }
 .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 24px 32px; }
