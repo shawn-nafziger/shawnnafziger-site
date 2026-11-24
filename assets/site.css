@@ -111,3 +111,17 @@ a.card:hover h3 { color: var(--amber); }
   .site-nav { margin-left: -8px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+/* Profile page: experience timeline and skills */
+.timeline { display: grid; border-top: 1px solid var(--rule); }
+.role { display: grid; grid-template-columns: 170px 1fr; gap: 6px 24px; padding: 22px 0; border-bottom: 1px solid var(--rule); }
+.role .when { font: 400 13px/1.6 var(--font-data); color: var(--ink-3); }
+.role h3 { font-size: 21px; }
+.role .org { color: var(--ink-2); margin: 4px 0 8px; }
+.role p:not(.org) { color: var(--ink-2); max-width: 40em; }
+@media (max-width: 600px) { .role { grid-template-columns: 1fr; } }
+.skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 24px 32px; }
+.skills h3 { font-size: 18px; text-transform: uppercase; margin-bottom: 10px; }
+.plain { margin: 0; padding: 0; list-style: none; color: var(--ink-2); }
+.plain li + li { margin-top: 6px; }
+.small { font-size: 14px; color: var(--ink-3); margin-top: 10px; }
