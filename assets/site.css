@@ -126,3 +126,5 @@ a.card:hover h3 { color: var(--amber); }
 .plain { margin: 0; padding: 0; list-style: none; color: var(--ink-2); }
 .plain li + li { margin-top: 6px; }
 .small { font-size: 14px; color: var(--ink-3); margin-top: 10px; }
+.intro { font-size: 18px; line-height: 1.55; color: var(--ink-2); margin-top: 14px; max-width: 36em; }
+@media (max-width: 560px) { .intro { font-size: 17px; } }
