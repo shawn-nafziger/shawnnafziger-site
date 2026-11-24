@@ -15,6 +15,7 @@ Who Shawn is and how we work: read `CLAUDE.md` in `shawn-nafziger/nba-analytics`
 ## Stories
 - Built in the data repos and copied here by PR, like Tall Order's stories: the seaweed story comes from `travel-analytics/analysis/seaweed_beaches/map_prototype/` (`build.py` writes `output/seaweed-map.html`, copied to `stories/seaweed-beaches-sargassum/index.html`). Edit the template there and rebuild; don't hand-edit the copy.
 - Story pages carry this site's shell: the "Shawn Nafziger" wordmark, menu (Story, Profile, theme button), `sn-theme`, `../../assets/theme.js`, `../../favicon.svg`, canonical address on shawnnafziger.com, and no analytics. Glossary pop-ups have no "More on this" link (Tall Order's Stats, explained page isn't linked from here).
+- **Home page (Nov 24, 2026):** headline "Building the bridge between digital analytics, business intelligence and AI" and the intro are Shawn's chosen wording; don't reword them. Each story gets a picture card: `assets/cards/<slug>.jpg`, 1600×900, a screenshot of the story's own main visual (the seaweed one is the Atlantic map paused on July 2025, map controls hidden). No "How I work" on the home page (the profile page has Shawn's version).
 - Never run `tallorderdigital-site/tools/apply-header.py` on a template that publishes here.
 - Address: `stories/<slug>/`. Never break a published address; leave a redirect page if a story moves.
 

@@ -128,3 +128,6 @@ a.card:hover h3 { color: var(--amber); }
 .small { font-size: 14px; color: var(--ink-3); margin-top: 10px; }
 .intro { font-size: 18px; line-height: 1.55; color: var(--ink-2); margin-top: 14px; max-width: 36em; }
 @media (max-width: 560px) { .intro { font-size: 17px; } }
+.card-img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 6px; border: 1px solid var(--rule); background: var(--band); }
+.card.feature .card-img { margin-bottom: 4px; }
+a.card:hover .card-img { border-color: var(--ink-3); }
